@@ -97,7 +97,7 @@ def genetic_algorithm(
     try:
         # Begin the evolution
         while (
-            current_gen_best_fit.values != (0.0, 1.0, 1.0)
+            current_gen_best_fit.values != (0.0, 1.0, 1.0) # This should be configurable
             and current_generation < max_generations
         ):
 
