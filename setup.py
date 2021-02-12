@@ -37,7 +37,7 @@ setup(
     },
     python_requires=">=3.6,<3.9",
     install_requires=[
-        "tensorflow",
+        "keras>=2.4",
         "numpy>=1.18.2",
         "pandas>=1.0.3",
         "deap>=1.3.1",

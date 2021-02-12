@@ -14,8 +14,9 @@ import numpy as np
 from deap import base, creator, tools
 from sklearn.metrics import accuracy_score, fbeta_score
 
-import tensorflow
+import tensorflow as tf
 from tensorflow import keras
+from tensorflow.keras import layers
 
 from dgp.dgp_logger import DGPLOGGER
 from dgp.ga_optimizer.types import Layer, MLPIndividual
