@@ -22,8 +22,6 @@ from dgp.dgp_logger import DGPLOGGER
 from dgp.ga_optimizer.types import Layer, MLPIndividual
 from dgp.utils import Proben1Partition, Proben1Split
 
-environ["KERAS_BACKEND"] = "theano"
-
 # pylint: disable=C0411,C0413
 from keras.layers import Dense  # noqa: E402  # isort:skip
 
