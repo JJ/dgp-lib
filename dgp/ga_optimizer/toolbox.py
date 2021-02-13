@@ -115,7 +115,8 @@ def individual_evaluator(
     neuron_layer_score = sum(units_size_list) * len(units_size_list)
     DGPLOGGER.debug(
         f"        error%={error_perc:.2f}\n"
-        f"        neuron/layer-score={neuron_layer_score:.2f}\n"
+        f"        neurons={units_size_list}\n"
+        f"        layers={len(units_size_list)}\n"
         f"        f2-score={f2_score:.5f}\n"
         f"        evaluation time={time.perf_counter() - start_time: .2f} sec"
     )
