@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 LONG_DESC = open("README.rst", encoding="utf-8").read()
-VERSION = "1.0.7"
+VERSION = "0.0.1"
 DOWNLOAD = f"https://github.com/lulivi/dgp-lib/releases/tag/v{VERSION}"
 
 setup(
-    name="DeepGProp",
+    name="DeepGPropv2",
     version=VERSION,
     author="Luis Liñán",
     author_email="luislivilla@gmail.com",
